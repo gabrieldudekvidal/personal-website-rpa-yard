@@ -43,29 +43,27 @@ h2{
 .hello-img{
   margin: 0px auto 0px auto; /*To center an image set: margins left and right to auto and display block.*/
   display: block;
-  width: 50%;
+  width: 45%;
   height: auto;
 }
 .content-img{
   margin: 0px auto 0px auto;
   display: block;
-  width: 280px;
+  width: 45%;
   height: auto;
 }
 .socialmedia-img{
   margin: 0px auto 0px auto;
   display: block;
-  width: 250px;
+  width: 40%;
   height: auto;
 }
 .hello-img-container{
-  background: rgb(255,230,242);
-  background: linear-gradient(90deg, rgba(255,230,242,1) 0%, rgba(229,219,255,1) 100%);
+  background: #000000;
   padding: 30px;
 }
 .content-img-container{
-  background: rgb(230,247,255);
-  background: linear-gradient(90deg, rgba(230,247,255,1) 0%, rgba(255,219,249,1) 100%);
+  background: #000000;
   padding: 30px;
 }
 .socialmedia-img-container{
@@ -82,16 +80,20 @@ h2{
 }
 .socialm-container{
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
+  background: #000000;
 }
 .socialm-container a{
   padding: 0px 10px 30px 5px;
-  color: black;
+  color: #ffffff;
   text-decoration: none;
 }
 .socialm-container a:hover{
-  color:black;
+  color: #ffffff;
   text-decoration: none;
+}
+.fab{
+  color: #ffffff;
 }
 /*Content Main*/
 .content-container{
