@@ -5,6 +5,7 @@ body{
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  font-family: 'Dosis', sans-serif;
 }
 h2{
   margin-bottom: 300px;
@@ -225,24 +226,6 @@ h2{
   .sidenav a {font-size: 18px;}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*REGEX */
 .regex-code{
   background-color: black;
@@ -269,7 +252,6 @@ h2{
 .learn-containers{
   text-align: justify;
 }
-
 .learn-containers h2{
   margin: 150px 0px 100px 0;
 }
