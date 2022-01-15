@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Gabriel Dudek Vidal - RPA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-white  text-dark justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../content.html">RPA Yard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="learn-containers container mt-5 col-lg-6">
+
+        <h2 class="learn-title">Lesson 3 - Interacting With UI Elements </h2>
+        <h4></h4>
+        <p>Steps</p>
+        <div class="automation-purpose">
+            <h5>Automation Purpose</h5>
+            <p>Search for products in a .xlsx file and take a screenshot of the first results found on the screen
+                containing price and
+                information.</p>
+        </div>
+        <p>* This automation needs Microsoft Excel installed on your machine.</p>
+        <h4>Tools</h4>
+        <p>In this project we are going to interact with UI inside of a broswer. So it is necessary to install the
+            browser extenstion. To do it
+            go to <strong>Tools</strong> and select <strong>Chrome.</strong></p>
+        <img class="lg-img" src="images/learn31.PNG">
+        <p>After install open your browser and click on <strong>Enable</strong>.</p>
+        <p>We are going to search for products based on a Excel Woorksheet.
+            Feel free to create your own based on the image or download the file below.</p>
+        <p>Tip: If you create your own file copy the same information highlighted in the image. It will be easier to
+            follow the steps along
+            the lesson.</p>
+        <img class="lg-img" src="images/learn32.PNG">
+        <a class="button-download" href="files/products_list.xlsx" download="products_list"><img
+                src="images/downloadfile.png"> Download File</a>
+        <p>Create and name your project.</p>
+        <p>Add <strong>Sequence</strong> and <strong>Open Browser</strong> activities.</p>
+        <p>Tip: Remember that you need to go to Activity Panel to add.</p>
+        put img here
+        <img class="md-img" src="images/learn33.PNG">
+        <p>With <strong>Open Browser</strong> selected go to properties panel and set <strong>BrowserType</strong> to
+            <strong>Chrome</strong></p>
+        <img class="md-img" src="images/learn34.PNG">
+        <p>Create a string variable and store the value: "https://www.amazon.com/".</p>
+        <img class="md-img" src="images/learn35.PNG">
+        <p>Populate the field Url of <strong>Open Browser</strong> activity with the recently created variable <strong>strAmazonUrl</strong>.</p>
+        <p>Add <strong>Maximize Window</strong> activity.</p>
+        <img class="md-img" src="images/learn36.PNG">
+
+        <a class="lessons-button" href="learn1.html">Prev</a>
+        <a class="lessons-button" href="learn3.html">Next</a>
+    </div>
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+</body>
+
+</html>

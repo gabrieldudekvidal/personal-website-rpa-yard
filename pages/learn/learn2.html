@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Gabriel Dudek Vidal - RPA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/x-icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-white  text-dark justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../content.html">RPA Yard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="learn-containers container mt-5 ">
+        <h2 class="learn-title">Lesson 2 - First Robot</h2>
+        <h4>The Studio Interface</h4>
+        <img class="lg-img" src="images/learn21.png">
+        <h4>Creating the First Project</h4>
+        <p>Let's create our first robot! It will be a simple robot but you can learn some basic concepts.</p>
+        <p>This is the first screen that you see when you run Studio. We have 3 options:</p>
+        <p><strong>Open:</strong> As the title says you can open projects and below a list with recent opened
+            projects will appear.</p>
+        <p><strong>New Project:</strong> There are some options with specific functions, you can read the well
+            explained descriptions on the interface.</p>
+        <p>To create a blank process the option is "Process".</p>
+        <p><strong>New From Template:</strong></p>
+        <div class="automation-purpose">
+            <h5>Automation Purpose</h5>
+            <p>We will create a bot that reads input from the user and display a message box contaning the typed
+                information.</p>
+        </div>
+        <p>To create a process click on <strong>Process</strong>.</p>
+        <img class="sm-img" src="images/learn22.png">
+        <p>Give a name and description.</p>
+        <p>Tip: I personally use the Pascal Case name convention e.g. "MyProject."</p>
+        <img class="sm-img" src="images/learn23.PNG">
+        <p>Quick view of Studio development interface.</p>
+        <img class="lg-img" src="images/learn24.PNG">
+        <h4>Activities</h4>
+        <p>What are activities? To understand more and have quick reference check <a target="blank"
+                href="../activities.html">Activities and Packages Cheatsheet</a></p>
+        <p>In the Activities Panel search for <strong>Sequence</strong> activity and add it. To do just
+            drag and drop to the canvas.</p>
+        <img class="sm-img" src="images/learn25.PNG">
+        <p>Add <strong>Input Dialog</strong> and a <strong>Message Box</strong>.</p>
+        <img class="sm-img" src="images/learn26.PNG">
+        <img class="sm-img" src="images/learn27.PNG">
+        <p>Your Workflow should look like this:</p>
+        <img class="sm-img" src="images/learn28.PNG">
+        <p>Let's add 2 variables clicking on <strong>Create Variablies</strong> in variables Panel.
+            Add one String and one Integer (name it as you want).</p>
+        <p>Remember! String are for text values: "I'm string value"</p>
+        <p>Integers for Integer values: 1997</p>
+        <img class="md-img" src="images/learn29.PNG">
+        <p>Now let's add information to our activities. Add a title and a description like this:</p>
+        <img class="sm-img" src="images/learn210.PNG">
+        <p>On the right side in the <strong>Properties Panel</strong> you can define specific settings
+            for each activity. In <strong>Output</strong> add the String variable created on the previous step.</p>
+        <img class="lg-img" src="images/learn211.PNG">
+        <p>Do the same in the next <strong>Input Dialog</strong> activity, but this time add the Integer variable.</p>
+            <img class="lg-img" src="images/learn212.PNG">
+            <p><span>8</span> Add the following values to Message Box: "Hello! my name is "+strName+" and I'm "+intAge.ToString</p>
+            <img class="sm-img" src="images/learn213.PNG">
+            <p>You can click on the three dots in the Properties Panel> Input> Text to expand and write your expression.</p>
+            <img class="sm-img" src="images/learn214.PNG">
+            <img class="md-img" src="images/learn215.PNG">
+            <p>Let's run the Workflow!</p>
+            <img class="sm-img" src="images/learn216.PNG">
+            <p>If you click on the arrow it's possible to see that we have 3 options to choose on Debug: Run File, Debug, Run.</p>
+                <img class="sm-img" src="images/learn217.PNG">
+               <p>Debug methods will be explained along the course. If you are interested in learning more right now
+                access: <a href="">Debug Methods in UiPath</a></p>
+               <p>To run the project click on <strong>Debug</strong>.</p>
+               <p>Type a name:</p>
+                <img class="sm-img" src="images/learn218.PNG">
+               <p>Type age:</p>
+                <img class="sm-img" src="images/learn219.PNG">
+               <p>The result should be displayed like this:</p>
+                <img class="sm-img" src="images/learn220.PNG">
+            <h4>That's it!</h4>
+            <p>We finished our first robot! It was very simple but you've learned some useful conceps like:</p>
+            <p>A little bit of the interface, activities, variables and how to run a project.</p>
+            <h4>Activities used</h4>
+            <p>Have you liked the content? Send me a message if you have critics or suggetions.</p>
+            <p>Follow my page on Instagram to stay updated about new upcoming lessons. Thank you!</p>
+            <a class="lessons-button" href="learn1.html">Prev</a>
+            <a class="lessons-button" href="learn3.html">Next</a>
+    </div>
+
+    <script>
+        window.onscroll = function () {
+            myFunction()
+        };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+</body>
+
+</html>
