@@ -33,44 +33,63 @@ h2{
   text-align: center;
 }
 .header-container{
-  margin-bottom: 180px;
+  margin-bottom: 130px;
 }
 .me-img{
   width: 200px;
   margin: 100px auto 50px auto;
   display: block;
 }
-.hello-img{
-  margin: 0px auto 0px auto; /*To center an image set: margins left and right to auto and display block.*/
-  display: block;
-  width: 45%;
-  height: auto;
-}
-.content-img{
-  margin: 0px auto 0px auto;
-  display: block;
-  width: 45%;
-  height: auto;
-}
-.socialmedia-img{
-  margin: 0px auto 0px auto;
-  display: block;
-  width: 40%;
-  height: auto;
-}
 .hello-img-container{
   background: #000000;
   padding: 30px;
 }
-.content-img-container{
+.content-container{
   background: #000000;
   padding: 30px;
 }
-.socialmedia-img-container{
-  background: rgb(230,247,255);
-  background: linear-gradient(90deg, rgba(230,247,255,1) 0%, rgba(255,219,249,1) 100%);
-  padding: 30px;
+
+.hello-container{
+  color: #ffffff;
+  text-align: justify;
 }
+
+.hello-container h1{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#16a144, #198188);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
+.content-desc-container{
+  color: #ffffff;
+  text-align: justify;
+}
+
+.content-desc-container h1{
+    font-size: 48px;
+    background: -webkit-linear-gradient(#16a144, #198188);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.socialm-container{
+  color: #ffffff;
+}
+
+.socialm-container h1{
+    font-size: 40px;
+    background: -webkit-linear-gradient(#16a144, #198188);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+
+
 .desc-container{
   margin: 150px 0px 50px 0px;
   text-align: justify;
