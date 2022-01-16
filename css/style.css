@@ -10,6 +10,10 @@ body{
 h2{
   margin-bottom: 300px;
 }
+hr{
+  color: #17955c;
+  background-color: #17955c;
+}
 .nav-link{
   text-decoration: none;
   color: black;
@@ -40,18 +44,14 @@ h2{
   margin: 100px auto 50px auto;
   display: block;
 }
-.hello-img-container{
-  background: #000000;
-  padding: 30px;
-}
-.content-container{
+
+.index-container{
   background: #000000;
   padding: 30px;
 }
 
 .hello-container{
   color: #ffffff;
-  text-align: justify;
 }
 
 .hello-container h1{
@@ -62,9 +62,18 @@ h2{
     margin-bottom: 30px;
 }
 
+.hello-container a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.hello-container a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 .content-desc-container{
   color: #ffffff;
-  text-align: justify;
 }
 
 .content-desc-container h1{
@@ -72,12 +81,25 @@ h2{
     background: -webkit-linear-gradient(#16a144, #198188);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: right;
     margin-bottom: 30px;
 }
 
-.socialm-container{
+.content-desc-container a{
   color: #ffffff;
+  text-decoration: underline;
+}
+
+.content-desc-container a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.desc-container{
+  margin: 150px 0px 50px 0px;
+  text-align: justify;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 .socialm-container h1{
@@ -88,19 +110,11 @@ h2{
     margin-bottom: 20px;
 }
 
-
-
-.desc-container{
-  margin: 150px 0px 50px 0px;
-  text-align: justify;
-  border-radius: 15px;
-  padding: 20px;
-  font-size: 18px;
-}
 .socialm-container{
   text-align: center;
   font-size: 16px;
   background: #000000;
+  color: #ffffff;
 }
 .socialm-container a{
   padding: 0px 10px 30px 5px;
@@ -167,8 +181,33 @@ h2{
   margin: 100px auto 100px auto;
   display: block;
 }
-.about-container{
+
+.about-container h2{
+  margin-bottom: 20px;
+}
+
+.about-container a{
+  text-decoration: underline;
+  color: #17955c;
+}
+
+.about-container a:hover{
+  text-decoration: underline;
+  color: #17955c;
+}
+
+.about-socialm-container{
   text-align: center;
+  font-size: 16px;
+}
+.about-socialm-container a{
+  padding: 0px 10px 30px 5px;
+  text-decoration: none;
+  color: #000000;
+}
+.about-socialm-container a:hover{
+  text-decoration: none;
+  color: #000000;
 }
 
 /*VB.Net Cheatsheet*/
